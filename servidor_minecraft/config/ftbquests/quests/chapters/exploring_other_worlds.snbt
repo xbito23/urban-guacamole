@@ -1,0 +1,1542 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploring_other_worlds"
+	group: ""
+	icon: "aether:aether_portal_frame"
+	id: "1E44109704EEA1D8"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Remember that to enter the dimension you must build a portal with blocks of luminous stone, and instead of using a lighter, you must light it with a bucket of water."]
+			id: "581F56112561BEB3"
+			rewards: [{
+				id: "0BD75A0CA471574B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "This is much more than a simple dimension..."
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "aether:aether_portal_frame"
+				id: "62E69D0C219B1E33"
+				title: "Enter the Aether"
+				type: "dimension"
+			}]
+			title: "Enter The Aether"
+			x: -6.500000000000001d
+			y: -10.4d
+		}
+		{
+			description: [
+				"To travel to this new dimension, you must first create a unique portal."
+				""
+				"First, make a hole in the ground 4 wide by 4 wide and 1 block deep. Then, line the inside with grass blocks or similar. You should be left with a 2 by 2 hole in the center. Fill it with water. Finally, in the grass blocks for flowers, and throw a diamond over the water."
+			]
+			id: "54A51AA80C0366D4"
+			rewards: [{
+				id: "646B6B25387B9701"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "A truly amazing dimension"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "1740C1589FB47A46"
+				title: "Enter The Twilight Forest"
+				type: "dimension"
+			}]
+			title: "Enter The Twilight Forest"
+			x: 0.0d
+			y: -1.3d
+		}
+		{
+			dependencies: ["0753BCAB7E0E6FE9"]
+			description: ["The portal is located in the ancient cities. To be able to turn it on you need to use the Warden's heart, but first remember to remove the Sculk veins from the portal..."]
+			id: "0F654B0D34185D14"
+			rewards: [{
+				id: "72E0E3C83269DA17"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "An amazing journey awaits you!"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "minecraft:reinforced_deepslate"
+				id: "6BF13014D56963E3"
+				title: "Enter the Otherside"
+				type: "dimension"
+			}]
+			title: "Enter The Otherside"
+			x: -16.900000000000002d
+			y: -3.9000000000000004d
+		}
+		{
+			description: ["Talk to the Gatekeeper to get the Blue Journal. Thanks to it you will find out how to access this dimension."]
+			id: "7DCCBB84E7C1C6C8"
+			rewards: [{
+				id: "2500DFC85C500409"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "So much blue!"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:everbright_portal"
+				id: "272A561EAC46EEE3"
+				title: "Enter The Everbright"
+				type: "dimension"
+			}]
+			title: "Enter The Everbright"
+			x: -0.65d
+			y: -7.800000000000001d
+		}
+		{
+			description: ["Talk to the Gatekeeper to get the Blue Journal. Thanks to it you will find out how to access this dimension."]
+			id: "5425009B6669A1C2"
+			rewards: [{
+				id: "37EFA0C81C02467F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Where is the light?"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				icon: "blue_skies:everdawn_portal"
+				id: "222C1DBA60AD0978"
+				title: "Enter the Everdawn"
+				type: "dimension"
+			}]
+			title: "Enter The Everdawn"
+			x: -7.800000000000001d
+			y: -3.9000000000000004d
+		}
+		{
+			description: ["The way to get there is the same, but what you will find inside is very, very different. Good luck."]
+			icon: "minecraft:end_portal_frame"
+			id: "6BCB49E1C5167287"
+			rewards: [{
+				id: "0AE702C349C15EFF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "The End is no longer the same..."
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "7368590B3A995ED0"
+				title: "Enter The End"
+				type: "dimension"
+			}]
+			x: -13.000000000000002d
+			y: -7.800000000000001d
+		}
+		{
+			description: [
+				"The Nether has changed, it is no longer the quiet and practically uninhabited place it used to be. "
+				""
+				"Be sure that you will have a bad time, very bad. Prepare for the worst."
+			]
+			id: "0271ADC7C8C4C781"
+			rewards: [{
+				id: "13E7FE4FD86CC693"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Your first dimension?"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "0D49F63A0574C064"
+				title: "Enter The Nether"
+				type: "dimension"
+			}]
+			x: -16.900000000000002d
+			y: -11.05d
+		}
+		{
+			dependencies: ["0271ADC7C8C4C781"]
+			description: [
+				"You will discover dozens of new biomes, but among them, this one stands out for its colors. "
+				""
+				"It's really beautiful!"
+			]
+			id: "7EC452C0B3EFB7E3"
+			rewards: [
+				{
+					id: "57A7864B8D994A61"
+					item: {
+						Count: 1
+						id: "new_shield_variants:blaze_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76E3F724D9A5704C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Wasn't the Nether a dark place?"
+			tasks: [
+				{
+					biome: "regions_unexplored:blackstone_basin"
+					icon: "regions_unexplored:cobalt_nylium"
+					id: "0E56B8998EC08A07"
+					title: "Find the new biome \"Blackstone Basin\"."
+					type: "biome"
+				}
+				{
+					count: 16L
+					id: "1B9A45B59FE7CF44"
+					item: "regions_unexplored:cobalt_earlight"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "0E79938506090B95"
+					item: "regions_unexplored:hanging_earlight_fruit"
+					type: "item"
+				}
+			]
+			title: "A Colorful Biome"
+			x: -15.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0271ADC7C8C4C781"]
+			description: ["Gold, lots and lots of gold. Of course, it won't be easy for you to steal it. Someone will be waiting for you..."]
+			id: "0554BE40885F5E6F"
+			rewards: [
+				{
+					count: 12
+					id: "2D317F66ED84D110"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "473DDCF798FB8D4D"
+					item: "plushies:piglin_brute_plushie"
+					type: "item"
+				}
+				{
+					id: "5C46DA274D286B8A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Fortresses will now be much more dangerous"
+			tasks: [
+				{
+					icon: "minecraft:chiseled_nether_bricks"
+					id: "5419584212487885"
+					structure: "betterfortresses:fortress"
+					title: "Find a Fortress"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:piglin_brute"
+					id: "6F956075758BEC4E"
+					type: "kill"
+					value: 25L
+				}
+			]
+			x: -16.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0271ADC7C8C4C781"]
+			description: ["Find the Eye of Fire and end Ignis' life. Remember that to summon him you must first place a Burning Ashes on the altar."]
+			id: "03B1C72941A8FE5C"
+			rewards: [
+				{
+					id: "2C0CF90DBACB6B7E"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2321C2D916D9DCD4"
+					item: "cataclysm:ignitium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "451D4A70F60E124E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "rsquare"
+			subtitle: "A mission only for brave players"
+			tasks: [
+				{
+					icon: "cataclysm:altar_of_fire"
+					id: "3A6740755B938D98"
+					structure: "#cataclysm:eye_of_flame_located"
+					title: "Find the Eye of Flame"
+					type: "structure"
+				}
+				{
+					id: "22F661DE2C6CF296"
+					item: "cataclysm:burning_ashes"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:ignis"
+					icon: "cataclysm:ignis_spawn_egg"
+					id: "3B33AC9E1023DF27"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kill the Mighty Ignis"
+			x: -15.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6BCB49E1C5167287"]
+			description: ["As soon as you arrive at the End you will see the dragon's habitat, but be careful, it is very different from what you are used to."]
+			id: "11293B7EAB962A35"
+			rewards: [
+				{
+					id: "440AD28BE297B987"
+					item: {
+						Count: 1
+						id: "travelersbackpack:dragon"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "01CEE75CD08EDF21"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "The best-known boss in Minecraft, although I don't think it's as easy as usual...."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
+				id: "5B9BF80A303EE1FF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Dragon"
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6BCB49E1C5167287"]
+			description: ["He will be in the subway part of the structure, but first you may have to kill the Ender Golem."]
+			id: "45CE8AA9CBCEA1F0"
+			rewards: [
+				{
+					id: "13CEF8ADD401A3AD"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+				{
+					id: "728D7BDFC45715C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Don't forget to kill the Ender Guardian!"
+			tasks: [
+				{
+					icon: "cataclysm:altar_of_void"
+					id: "45C6043B44B9D097"
+					structure: "#cataclysm:eye_of_ruined_located"
+					title: "Find the Eye of Ruined"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:ender_guardian_spawn_egg"
+					id: "22336DC58C52C148"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Find the Eye of Ruined"
+			x: -11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6BCB49E1C5167287"]
+			description: ["Break some crystals and you will be well rewarded!"]
+			id: "336E2D012B9480A6"
+			rewards: [
+				{
+					id: "5E6C31C3CDC3EA8E"
+					item: "artifacts:crystal_heart"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "55F14B9E7BF38A87"
+					item: "outer_end:cobalt_crystal_arrow"
+					type: "item"
+				}
+				{
+					id: "4FD80479A5F05EF1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "What beautiful crystals!"
+			tasks: [
+				{
+					biome: "outer_end:crystal_crag"
+					icon: "phantasm:crystal_shard"
+					id: "5E928DD4DA33E962"
+					title: "Find the biome \"Crystal Crag\""
+					type: "biome"
+				}
+				{
+					count: 32L
+					id: "4D2A4F09F47870FA"
+					item: "outer_end:rose_crystal_shard"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7CF4F63CEE270C91"
+					item: "outer_end:mint_crystal_shard"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "742E883BF6FA4B5A"
+					item: "outer_end:cobalt_crystal_shard"
+					type: "item"
+				}
+			]
+			title: "Shiny Crystals"
+			x: -13.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"You still have a long way to go to enter the new dimension..."
+				""
+				"First, you must find an ancient city, to kill the dangerous Warden and receive his heart. "
+				""
+				"Once you have his heart, you just have to locate the large portal, remove all the sculk veins and click with the heart on the base."
+			]
+			id: "0753BCAB7E0E6FE9"
+			rewards: [
+				{
+					id: "1ACF7A751B0BBA48"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6985731EC9C9EE3B"
+					item: "plushies:warden_plushie"
+					type: "item"
+				}
+				{
+					id: "179067523E6B2708"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Time to create the portal"
+			tasks: [
+				{
+					icon: "minecraft:sculk_sensor"
+					id: "1A7E7D0D77BDEAD2"
+					structure: "minecraft:ancient_city"
+					title: "Find the Ancient City"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:warden"
+					icon: "plushies:warden_plushie"
+					id: "56C6E379B8F9506B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "21852D9D95A15B7F"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					id: "4603536738641ECF"
+					item: "minecraft:sculk_vein"
+					type: "item"
+				}
+			]
+			title: "First Steps"
+			x: -16.900000000000002d
+			y: -5.8500000000000005d
+		}
+		{
+			dependencies: ["0F654B0D34185D14"]
+			description: [
+				"As you will see, this dimension is full of enemies - how cute are those little Wardens!"
+				""
+				"Oh shit, wait, WHAT IS THAT! What a horrible worm, how disgusting, I better go...."
+			]
+			id: "399874FC54D01A37"
+			rewards: [
+				{
+					id: "6C6785E1B4F264B3"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D2C5BB706997BA"
+					item: {
+						Count: 1
+						id: "delightful:warden_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16D6B82E933C123A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Time to keep the new creatures, don't you think?"
+			tasks: [
+				{
+					entity: "deeperdarker:shattered"
+					icon: "deeperdarker:shattered_spawn_egg"
+					id: "2D6D5D5FE7A64D88"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "deeperdarker:sculk_centipede"
+					icon: "deeperdarker:sculk_centipede_spawn_egg"
+					id: "32B935486A610B2C"
+					type: "kill"
+					value: 25L
+				}
+				{
+					entity: "deeperdarker:sculk_snapper"
+					icon: "deeperdarker:sculk_snapper_spawn_egg"
+					id: "4E94A394E166BF7B"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "deeperdarker:shriek_worm"
+					icon: "deeperdarker:shriek_worm_spawn_egg"
+					id: "28E37779B031E9FD"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "deeperdarker:stalker"
+					icon: "deeperdarker:stalker_spawn_egg"
+					id: "1B6F7F1092284F17"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "New Creatures"
+			x: -15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0F654B0D34185D14"]
+			description: [
+				"I'm sure you're wondering... Why on earth would you want me to visit this place? "
+				""
+				"Well, you'll figure it out on your own, it's as scary as it is allusive!"
+			]
+			id: "2246DE5022D530C5"
+			rewards: [{
+				id: "7DA5CD2A978568B7"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "rsquare"
+			subtitle: "This place is really scary"
+			tasks: [{
+				icon: "minecraft:deepslate_bricks"
+				id: "0BD399991424E3D6"
+				structure: "deeperdarker:ancient_temple"
+				title: "Find the Ancient Temple"
+				type: "structure"
+			}]
+			title: "The Ancient Temple"
+			x: -16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F654B0D34185D14"]
+			description: ["The time has come to explore little by little this dimension, I hope you don't die trying. What!!!! Help!"]
+			id: "0C78EDDBF6C08B3D"
+			rewards: [{
+				id: "41C84F8A0229CEFA"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			shape: "rsquare"
+			subtitle: "What do my eyes see? Three new biomes to explore!"
+			tasks: [
+				{
+					biome: "deeperdarker:overcast_columns"
+					icon: "deeperdarker:gloomy_cactus"
+					id: "0CE6F29E91C463B0"
+					title: "Find the new biome \"Overcast Columns\""
+					type: "biome"
+				}
+				{
+					biome: "deeperdarker:deeplands"
+					icon: "deeperdarker:sculk_tendrils"
+					id: "2EEA7A52C64374D5"
+					title: "Find the new biome \"Deeplands\""
+					type: "biome"
+				}
+				{
+					biome: "deeperdarker:echoing_forest"
+					icon: "deeperdarker:echo_sapling"
+					id: "656200377B3FD0DB"
+					title: "Find the new biome \"Echoing Forest\""
+					type: "biome"
+				}
+			]
+			title: "New Biomes"
+			x: -15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["581F56112561BEB3"]
+			description: ["There are actually dozens of new biomes in this dimension, you don't need to visit them all... Although if I were you, I would..."]
+			id: "4B43D46EB4E3F79D"
+			rewards: [
+				{
+					count: 16
+					id: "23CBAC57C7406341"
+					item: "aether_redux:veridium_lantern"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "22DE263B1F6E7DB6"
+					item: "aether:ambrosium_torch"
+					type: "item"
+				}
+				{
+					id: "338A94227169F04C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "My God, how many biomes!"
+			tasks: [
+				{
+					biome: "aether:skyroot_forest"
+					icon: "aether:skyroot_leaves"
+					id: "604D7656EB11BD85"
+					title: "Find the new biome \"Skyroot Forest\""
+					type: "biome"
+				}
+				{
+					biome: "aether_redux:cloudcaps"
+					icon: "aether_redux:jellyshroom_jelly_block"
+					id: "24639060D8182B60"
+					title: "Find the new biome \"Cloudcaps\""
+					type: "biome"
+				}
+				{
+					biome: "deep_aether:yagroot_swamp"
+					icon: "deep_aether:yagroot_leaves"
+					id: "498DEDABADF6B914"
+					title: "Find the new biome \"Yagroot Swamp\""
+					type: "biome"
+				}
+				{
+					biome: "deep_aether:golden_grove"
+					icon: "deep_aether:conberry_leaves"
+					id: "1D6118DF3635F18A"
+					title: "Find the new biome \"Golden Grove\""
+					type: "biome"
+				}
+				{
+					biome: "deep_aether:mystic_aerglow_forest"
+					icon: "deep_aether:flowering_roseroot_leaves"
+					id: "7C9D42C2EB53177D"
+					title: "Find the new biome \"Mystic Aerglow Forest\""
+					type: "biome"
+				}
+			]
+			title: "New Biomes"
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["581F56112561BEB3"]
+			description: [
+				"I hope you don't just visit them! You must manage to defeat the three bosses hiding inside."
+				""
+				"I wish you luck. You will need it."
+			]
+			id: "1CD53AD7841DA550"
+			rewards: [
+				{
+					id: "5AD612E9D0C01266"
+					item: {
+						Count: 1
+						id: "aether:neptune_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F0526B5404C7545"
+					item: {
+						Count: 1
+						id: "deep_aether:stratus_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48DAC2FFCE2A21D7"
+					item: {
+						Count: 1
+						id: "deep_aether:afterburner"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EE1DFB94CC17139"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "The classic dungeons of the skies"
+			tasks: [
+				{
+					icon: "aether:bronze_dungeon_key"
+					id: "00834A3DE570EDB7"
+					structure: "aether:bronze_dungeon"
+					title: "Find the Bronze Dungeon"
+					type: "structure"
+				}
+				{
+					icon: "aether:silver_dungeon_key"
+					id: "671A5D9E3CD83FF1"
+					structure: "aether:silver_dungeon"
+					title: "Find the Silver Dungeon"
+					type: "structure"
+				}
+				{
+					icon: "aether:gold_dungeon_key"
+					id: "7D0BB614B8157514"
+					structure: "aether:gold_dungeon"
+					title: "Find the Gold Dungeon"
+					type: "structure"
+				}
+			]
+			title: "New Structures"
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["581F56112561BEB3"]
+			description: ["Just capture some of these animals, although there are many more waiting for you..."]
+			id: "7624407FDBA1344C"
+			rewards: [
+				{
+					id: "57ED4F104DFF9461"
+					item: {
+						Count: 1
+						id: "lost_aether_content:phoenix_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5638A2E735B70F7F"
+					item: {
+						Count: 1
+						id: "aether_redux:subzero_crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "564619FFD13DCF01"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "rsquare"
+			subtitle: "There are a lot of new animals that are awesome!"
+			tasks: [
+				{
+					entity: "aether:flying_cow"
+					icon: "aether:flying_cow_spawn_egg"
+					id: "51E61473564BDD4A"
+					type: "kill"
+					value: 25L
+				}
+				{
+					entity: "aether:cockatrice"
+					icon: "aether:cockatrice_spawn_egg"
+					id: "05AA2BC00030BDB3"
+					type: "kill"
+					value: 25L
+				}
+				{
+					entity: "aether:sheepuff"
+					icon: "aether:sheepuff_spawn_egg"
+					id: "58F95774D4480442"
+					type: "kill"
+					value: 25L
+				}
+				{
+					entity: "aether:aerbunny"
+					icon: "aether:aerbunny_spawn_egg"
+					id: "2893F6908AF0E8CD"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "aether:blue_swet"
+					icon: "aether:blue_swet_spawn_egg"
+					id: "1E86827EEE8A2B7B"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "aether:zephyr"
+					icon: "aether:zephyr_spawn_egg"
+					id: "5F6C24FC4FF1376F"
+					type: "kill"
+					value: 15L
+				}
+			]
+			title: "So Many Animals!"
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["54A51AA80C0366D4"]
+			description: [
+				"Don't be cruel to the environment, just enjoy it."
+				""
+				"Walk and discover new places, see how many animals! "
+			]
+			id: "38D7F53A796D05E9"
+			rewards: [
+				{
+					id: "6C5905795C27D3ED"
+					item: {
+						Count: 1
+						id: "twilightforest:twilight_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35341677D6D53301"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Nature is the best part of our life"
+			tasks: [
+				{
+					biome: "twilightforest:mushroom_forest"
+					icon: "minecraft:red_mushroom_block"
+					id: "3A883B0B19659196"
+					title: "Find the new biome \"Mushroom Forest\""
+					type: "biome"
+				}
+				{
+					biome: "twilightforest:glacier"
+					icon: "minecraft:ice"
+					id: "3F9EE38C9CEB611A"
+					title: "Find the new biome \"Glacier\""
+					type: "biome"
+				}
+				{
+					biome: "twilightforest:thornlands"
+					icon: "alexscaves:thornwood_wood"
+					id: "7F03DD3672FE2151"
+					title: "Find the new biome \"Thornlands\""
+					type: "biome"
+				}
+				{
+					biome: "twilightforest:enchanted_forest"
+					icon: "twilightforest:rainbow_oak_leaves"
+					id: "25AC7D1206429A05"
+					title: "Find the new biome \"Enchanted Forest\""
+					type: "biome"
+				}
+				{
+					biome: "twilightforest:swamp"
+					icon: "twilightforest:mangrove_log"
+					id: "1F87CFB78AF4108F"
+					title: "Find the new biome \"Swamp\""
+					type: "biome"
+				}
+			]
+			title: "New Biomes"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["54A51AA80C0366D4"]
+			description: [
+				"Hello! How are you? Lots to explore?"
+				""
+				"Well, go at your own pace, I'm just saying... ARE YOU AWARE OF ALL THE STRUCTURES IN THIS DIMENSION? "
+			]
+			id: "5AA470B9FD69A805"
+			rewards: [
+				{
+					id: "03E80AA2D7F1F226"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B1E9D93798044F0"
+					item: {
+						Count: 1
+						id: "twilightforest:ore_magnet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01F062D603F34E29"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "rsquare"
+			subtitle: "There are still a lot of structures to discover!"
+			tasks: [
+				{
+					icon: "twilightforest:aurora_block"
+					id: "335F2766FCB0AF05"
+					structure: "twilightforest:aurora_palace"
+					title: "Find the \"Aurora Palace\""
+					type: "structure"
+				}
+				{
+					icon: "minecraft:glowstone"
+					id: "2E6D5934D92FD6CA"
+					structure: "twilightforest:hydra_lair"
+					title: "Find the \"Hydra Lair\""
+					type: "structure"
+				}
+				{
+					icon: "minecraft:mossy_stone_bricks"
+					id: "56A122BBFEBF23DB"
+					structure: "twilightforest:lich_tower"
+					title: "Find the \"Lich Tower\""
+					type: "structure"
+				}
+				{
+					icon: "twilightforest:fluffy_cloud"
+					id: "7A4907B29D3F3CD7"
+					structure: "twilightforest:troll_cave"
+					title: "Find the \"Troll Cave\""
+					type: "structure"
+				}
+				{
+					icon: "twilightforest:mossy_underbrick"
+					id: "5046E5ED78E82F3C"
+					structure: "twilightforest:knight_stronghold"
+					title: "Find the \"Knight Stronghold\""
+					type: "structure"
+				}
+			]
+			title: "New Structures"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["54A51AA80C0366D4"]
+			description: [
+				"If there's one thing in this dimension, it's creatures, and in particular, bosses. There are a lot of them!"
+				""
+				"I'm not going to ask you to kill them all, but hey, you might want to get the heads of some of these."
+			]
+			id: "234200FA9A25EA30"
+			rewards: [
+				{
+					id: "4BF24B407A6DB1C5"
+					item: {
+						Count: 1
+						id: "twilightforest:giant_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D6BDE96E2969141"
+					item: {
+						Count: 1
+						id: "twilightforest:seeker_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "048503A3EC38C324"
+					item: {
+						Count: 1
+						id: "twilightforest:block_and_chain"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1281AB424A58B757"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "rsquare"
+			subtitle: "The kings of the place"
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					icon: "twilightforest:naga_trophy"
+					id: "1FE323D53EB91ED4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:alpha_yeti"
+					icon: "twilightforest:alpha_yeti_trophy"
+					id: "70F1F9F364FFC091"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:snow_queen"
+					icon: "twilightforest:snow_queen_trophy"
+					id: "34EC165B4F7BF1F6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:lich"
+					icon: "twilightforest:lich_trophy"
+					id: "7A74D1C5B3740244"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:ur_ghast"
+					icon: "twilightforest:ur_ghast_trophy"
+					id: "3235F948728A6DFE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Bosses"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DCCBB84E7C1C6C8"]
+			description: [
+				"What are you waiting for?"
+				""
+				"Grab a good pair of sneakers and start walking, you have many places to discover..."
+			]
+			id: "7526ADE05B55E2D7"
+			rewards: [
+				{
+					id: "59464900FA16A285"
+					item: {
+						Count: 1
+						id: "blue_skies:moonstone_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C9E60660FB370F2"
+					item: "blue_skies:camel_saddle"
+					type: "item"
+				}
+				{
+					id: "6E96728EE5C7BE58"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Time to explore!"
+			tasks: [
+				{
+					biome: "blue_skies:snow_covered_pines"
+					icon: "blue_skies:starlit_leaves"
+					id: "56F6C81F9C0314FE"
+					title: "Find the new biome \"Snow Covered Pines\""
+					type: "biome"
+				}
+				{
+					biome: "blue_skies:deep_peeking_ocean"
+					icon: "blue_skies:midnight_sand"
+					id: "61D54215DED748E2"
+					title: "Find the new biome \"Deep Peeking Ocean\""
+					type: "biome"
+				}
+				{
+					biome: "blue_skies:frostbitten_forest"
+					icon: "blue_skies:frostbright_leaves"
+					id: "02864F18AEF8376A"
+					title: "Find the new biome \"Frostbitten Forest\""
+					type: "biome"
+				}
+				{
+					biome: "blue_skies:brisk_meadow"
+					icon: "blue_skies:turquoise_grass_block"
+					id: "0333A5AA091678CA"
+					title: "Find the new biome \"Brisk Meadow\""
+					type: "biome"
+				}
+				{
+					biome: "blue_skies:slushlands"
+					icon: "blue_skies:snowcap_mushroom_block"
+					id: "2EDD54F30142FEB1"
+					title: "Find the new biome \"Slushlands\""
+					type: "biome"
+				}
+			]
+			title: "New Biomes"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7DCCBB84E7C1C6C8"]
+			description: ["Don't get carried away by its appearance... If you enter them, you may never see the sunlight again."]
+			id: "0FB154ABA0E7058E"
+			rewards: [
+				{
+					id: "437DFFE90420FDDC"
+					item: {
+						Count: 1
+						id: "blue_skies:frostbright_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "264FF19972BAC599"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "rsquare"
+			subtitle: "This should be a piece of cake"
+			tasks: [
+				{
+					icon: "blue_skies:blinding_stone"
+					id: "57B75F589D0B9A68"
+					structure: "blue_skies:everbright_blinding_dungeon"
+					title: "Find the \"Everbright Blinding Dungeon\""
+					type: "structure"
+				}
+				{
+					icon: "blue_skies:cracked_turquoise_stonebrick"
+					id: "06CAB610DE779E99"
+					structure: "blue_skies:frozen_bunker"
+					title: "Find the \"Frozen Bunker\""
+					type: "structure"
+				}
+				{
+					icon: "blue_skies:starlit_wood"
+					id: "55D369E84525D408"
+					structure: "blue_skies:village_brightlands"
+					title: "Find the \"Village Brightlands\""
+					type: "structure"
+				}
+				{
+					icon: "blue_skies:nature_stone"
+					id: "48772D132CAFAE65"
+					structure: "blue_skies:nature_dungeon"
+					title: "Find the \"Nature Dungeon\""
+					type: "structure"
+				}
+			]
+			title: "New Structures"
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7DCCBB84E7C1C6C8"]
+			description: [
+				"So many animals! KILL them all, so that not a single one is left. I think I should be a little nicer..."
+				""
+				"It's your responsibility, you decide..."
+			]
+			id: "0ECDFDC68AD35974"
+			rewards: [
+				{
+					id: "40014F38B3116F3E"
+					item: {
+						Count: 1
+						id: "blue_skies:crushing_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C8040CA2475A5D5"
+					item: {
+						Count: 1
+						id: "blue_skies:loot_bag_starlit_crusher"
+						tag: {
+							LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+							Rarity: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "709D583A1F7549C9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Kill these creatures!"
+			tasks: [
+				{
+					entity: "blue_skies:azulfo"
+					icon: "blue_skies:azulfo_spawn_egg"
+					id: "5057E18FDB620353"
+					type: "kill"
+					value: 25L
+				}
+				{
+					entity: "blue_skies:reindeer"
+					icon: "blue_skies:reindeer_spawn_egg"
+					id: "7A41E1BEDD5974B8"
+					type: "kill"
+					value: 25L
+				}
+				{
+					entity: "blue_skies:whistleshell_crab"
+					icon: "blue_skies:whistleshell_crab_spawn_egg"
+					id: "03DF84802C5D2218"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "blue_skies:seclam"
+					icon: "blue_skies:seclam_spawn_egg"
+					id: "4276E56CAC249C0B"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "blue_skies:stardust_ram"
+					icon: "blue_skies:stardust_ram_spawn_egg"
+					id: "09D16A88928F5713"
+					type: "kill"
+					value: 15L
+				}
+			]
+			title: "New Creatures"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5425009B6669A1C2"]
+			description: [
+				"What do my eyes see? Nothing..."
+				""
+				"Please, someone tell me where the light switch is, this dimension is very dark :("
+				""
+				"Explore some biomes!"
+			]
+			id: "7F6F3B03D7D3F711"
+			rewards: [
+				{
+					id: "0AE18438222359FB"
+					item: {
+						Count: 1
+						id: "blue_skies:loot_bag_alchemist"
+						tag: {
+							LootTable: "blue_skies:loot_bags/alchemist/common"
+							Rarity: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D6891DD715845F7"
+					item: {
+						Count: 1
+						id: "blue_skies:alchemy_scroll"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "A new day of exploration"
+			tasks: [
+				{
+					biome: "blue_skies:sunset_maple_forest"
+					icon: "blue_skies:lunar_grass_block"
+					id: "25175FADE153C64D"
+					title: "Find the new biome \"Sunset Maple Forest\""
+					type: "biome"
+				}
+				{
+					biome: "blue_skies:crystal_roughs"
+					icon: "blue_skies:crystal_sand"
+					id: "2B0279C1468CC1F0"
+					title: "Find the new biome \"Crystal Roughs\""
+					type: "biome"
+				}
+				{
+					biome: "blue_skies:moonlit_reservoir"
+					icon: "blue_skies:dusk_leaves"
+					id: "388DC10B6CB783E6"
+					title: "Find the new biome \"Moonlit Reservoir\""
+					type: "biome"
+				}
+				{
+					biome: "blue_skies:unorthodox_valley"
+					icon: "blue_skies:lunar_stone"
+					id: "4B0FA52F63B1DAFB"
+					title: "Find the new biome \"Unorthodox Valley\""
+					type: "biome"
+				}
+				{
+					biome: "blue_skies:crescent_orchard"
+					icon: "blue_skies:crescent_fruit_leaves"
+					id: "6EC6B2076961AE18"
+					title: "Find the new biome \"Crescent Orchard\""
+					type: "biome"
+				}
+			]
+			title: "New Biomes"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5425009B6669A1C2"]
+			description: ["It's time for you to kill some creatures while exploring this \"fantastic\" dimension."]
+			id: "6DD0811761A9A858"
+			rewards: [
+				{
+					id: "6869D40E880B1A89"
+					item: {
+						Count: 1
+						id: "blue_skies:soulbound_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A1D3BDB6645B5BF"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "rsquare"
+			subtitle: "So much life! Or death..."
+			tasks: [
+				{
+					entity: "blue_skies:shade_monitor"
+					icon: "blue_skies:shade_monitor_spawn_egg"
+					id: "0E50E060142D372C"
+					type: "kill"
+					value: 50L
+				}
+				{
+					entity: "blue_skies:emberback"
+					icon: "blue_skies:emberback_spawn_egg"
+					id: "783ECD8CF83B013E"
+					type: "kill"
+					value: 25L
+				}
+				{
+					entity: "blue_skies:crogre"
+					icon: "blue_skies:crogre_spawn_egg"
+					id: "5B53377C0DCBEDAC"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "blue_skies:infested_swarmer"
+					icon: "blue_skies:infested_swarmer_spawn_egg"
+					id: "61137B83ECEEFC5E"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "New Creatures"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5425009B6669A1C2"]
+			description: [
+				"I propose you a challenge, explore all these structures without dying."
+				""
+				"Difficult, right? Well, you should know that there are people who have succeeded..."
+			]
+			id: "326579B7D82A4266"
+			rewards: [
+				{
+					id: "75D4AF4CC567C40A"
+					item: {
+						Count: 1
+						id: "blue_skies:venom_sac"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CCBE896843516CE"
+					item: {
+						Count: 1
+						id: "new_shield_variants:fire_charge_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D948D7248362280"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "rsquare"
+			subtitle: "This is what I call a good challenge"
+			tasks: [
+				{
+					icon: "blue_skies:glowing_blinding_stone"
+					id: "3B0BFF11217D96B6"
+					structure: "blue_skies:everdawn_blinding_dungeon"
+					title: "Find the \"Everdawn Blinding Dungeon\""
+					type: "structure"
+				}
+				{
+					icon: "blue_skies:poison_stone"
+					id: "7511F10C1E319858"
+					structure: "blue_skies:poison_dungeon"
+					title: "Find the \"Poison Dungeon\""
+					type: "structure"
+				}
+				{
+					icon: "blue_skies:maple_wood"
+					id: "2E2F8247A6A004C0"
+					structure: "blue_skies:village_sunset_maple_forest"
+					title: "Find the \"Village Sunset Maple Forest\""
+					type: "structure"
+				}
+			]
+			title: "New Structures"
+			x: -9.0d
+			y: -2.5d
+		}
+	]
+	title: "Exploring other worlds"
+}

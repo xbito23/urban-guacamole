@@ -1,0 +1,1176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mining_days"
+	group: ""
+	icon: {
+		Count: 1
+		id: "lost_aether_content:phoenix_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "137F432CC82A75B1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["A good miner will always carry a pick and shovel with him, stone you are sure to find, and possibly a good pile of gravel will get in your way."]
+			id: "5AFB24B518E46E0E"
+			rewards: [
+				{
+					count: 32
+					id: "4EDA7E394B7C7738"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "74B4B16E15EC3332"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Don't forget the most important tools"
+			tasks: [
+				{
+					id: "70CEF34EBEA4A165"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26CF80D025499216"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Time To Get Ready"
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AFB24B518E46E0E"]
+			description: [
+				"Mining is a complicated and very dangerous task. "
+				""
+				"You are sure to find lots of lava lakes, so what better than carrying a bucket of water to avoid it?"
+			]
+			id: "20695930D314DC92"
+			rewards: [{
+				id: "7EC3C2705FC526C6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			subtitle: "Not without my bucket!"
+			tasks: [{
+				id: "348AC67E299DD4EA"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			title: "Reducing Risks"
+			x: -16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5AFB24B518E46E0E"]
+			description: [
+				"Now, depending on the biome you are in, you can find a Mineshafts with different characteristics."
+				""
+				"Anyway, there is nothing like finding a more nostalgic one, so get to work, find a Mineshaft made of Oak wood, but be careful, it will be very different from what you have found before!"
+			]
+			id: "3F3249B65768516A"
+			rewards: [
+				{
+					id: "75358F8BB64262C8"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "187804ABF56F1600"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Did you know that you will find a lot of novelty Mineshafts?"
+			tasks: [{
+				id: "415468A72E5AC847"
+				structure: "bettermineshafts:mineshaft_oak"
+				title: "Find a new Oakwood Mineshaft"
+				type: "structure"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5AFB24B518E46E0E"]
+			description: [
+				"Well, the time has come for you to get 64 gold ingots. "
+				""
+				"A good day of mining awaits you, get the minerals and melt them in the furnace to get the ingots, you will be well rewarded!"
+			]
+			id: "4CCE59D8D39FCF39"
+			rewards: [{
+				id: "11AC9D8B7E4AA145"
+				item: "minecraft:golden_horse_armor"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "A very valuable mineral"
+			tasks: [
+				{
+					count: 64L
+					id: "2C7002A2081A7EC0"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "138F537799E2E282"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Gold"
+			x: -13.65d
+			y: -5.8500000000000005d
+		}
+		{
+			dependencies: ["4CCE59D8D39FCF39"]
+			description: [
+				"Perhaps you should know that golden foods can be a fundamental part of your game."
+				""
+				"They will give you powerful abilities. So don't wait any longer and get to work. Get more ingots if necessary, and surround your food with them."
+			]
+			id: "5B97A7704F72FA02"
+			rewards: [
+				{
+					id: "00AC96EE04A279C0"
+					item: "golden_foods:enchanted_golden_cooked_beef"
+					type: "item"
+				}
+				{
+					id: "1724D8DF7B546FE0"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Don't you think that eating gold is becoming very popular?"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "5EA12971F4A99175"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2559D3BA1D268B65"
+					item: "golden_foods:golden_cooked_beef"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "7B08A8D3FEEB5AE5"
+					item: "golden_foods:golden_bread"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1C427B68933B521A"
+					item: "golden_foods:golden_cookie"
+					type: "item"
+				}
+			]
+			title: "Golden Foods?"
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4CCE59D8D39FCF39"]
+			description: [
+				"There is one thing that most humans have in common, and that is their passion for the color of gold."
+				""
+				"This is nothing compared to all the new golden blocks that you will be able to make, they number in the hundreds!"
+			]
+			id: "0879C8F4F02AF321"
+			rewards: [
+				{
+					id: "1582B5629C7A4E61"
+					item: "sophisticatedbackpacks:gold_backpack"
+					type: "item"
+				}
+				{
+					id: "4F5B2891C37CF260"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Gold, a mineral for the wealthy"
+			tasks: [
+				{
+					count: 16L
+					id: "512E74BC433C6AEA"
+					item: "chipped:raw_gold_block_bricks"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "767FDE57F5715C73"
+					item: "quark:raw_gold_bricks_wall"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6E314AE41D540A09"
+					item: "quark:raw_gold_bricks_stairs"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1C447CB84E41B083"
+					item: "quark:gold_bars"
+					type: "item"
+				}
+				{
+					id: "7EF0A0488437D195"
+					item: "quark:golden_apple_crate"
+					type: "item"
+				}
+			]
+			title: "Golden Blocks"
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CCE59D8D39FCF39"]
+			description: [
+				"Gold, a mineral that has never been very useful in Minecraft, but perhaps you will be surprised by the infinite possibilities you will have now."
+				""
+				"Get your act together! You're a little late, aren't you? "
+				""
+				"Where's your gold furnace!!!"
+			]
+			id: "09671FCB9109D462"
+			rewards: [{
+				id: "61596ED34B61069B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			subtitle: "Discover some of the new uses"
+			tasks: [
+				{
+					id: "0FE7E16BC72A6EE3"
+					item: "ironfurnaces:gold_furnace"
+					type: "item"
+				}
+				{
+					id: "1BEA9A2569F14AA7"
+					item: {
+						Count: 1
+						id: "more_bows_and_arrows:gold_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "017AF63A50A52F42"
+					item: "more_bows_and_arrows:gold_arrow"
+					type: "item"
+				}
+				{
+					id: "0BECC75E7B9DA120"
+					item: "ironchest:gold_chest"
+					type: "item"
+				}
+				{
+					id: "08CF281E306B1DC6"
+					item: {
+						Count: 1
+						id: "aquaculture:gold_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "New Uses"
+			x: -14.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5AFB24B518E46E0E"]
+			description: [
+				"The gravel is very annoying, but what about the subway soil. Hell, who put it there?"
+				""
+				"Well, while you're at it, get some flint, I'm sure it will come in handy later."
+			]
+			id: "4F3635A5048A23FD"
+			rewards: [
+				{
+					count: 16
+					id: "71D62D9BC9652FE9"
+					item: "more_bows_and_arrows:flint_and_steel_arrow"
+					type: "item"
+				}
+				{
+					id: "3729B04F1F5CFDEF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			subtitle: "It's a good thing I brought my shovel..."
+			tasks: [
+				{
+					count: 32L
+					id: "42A2DA83A4D1809F"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "5841CFBF38CBEAEF"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "4A1895FF717E5990"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			title: "Flint, Come To Me"
+			x: -16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5AFB24B518E46E0E"]
+			description: [
+				"Before it's too late and you don't feel like it, get some coal from the mine. "
+				""
+				"And well, if you remember, make some charcoal too, maybe it's more comfortable for you?"
+			]
+			id: "2A5D7F39017D5F36"
+			rewards: [
+				{
+					count: 16
+					id: "2E483124B181B1BF"
+					item: "chipped:burning_coal_lantern"
+					type: "item"
+				}
+				{
+					id: "63FA99F55E91F65A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Coal, a mineral widely used at the beginning of the game, but which, as time goes by..."
+			tasks: [
+				{
+					count: 32L
+					id: "777F5CE0DE88945A"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "736E3EA1744C28D9"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			title: "Coal"
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A5D7F39017D5F36"]
+			description: ["Copper, Iron, Lapis, Redstone and even some emeralds, you have some unfinished business, don't you think?"]
+			id: "6C27ABEF5DF458EF"
+			rewards: [
+				{
+					id: "2C2407012AFC9B1D"
+					item: {
+						Count: 1
+						id: "new_shield_variants:diamond_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DBC9CB30C2B9A06"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			subtitle: "If you get all this today, you will surely go to bed happy."
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "4CDAF39B30D4198F"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "49FFE87538825E64"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "02D36CF131EA6838"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3AFB48DB812B2437"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0596E89B377E1597"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			title: "A Good Mining Day"
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2A5D7F39017D5F36"]
+			description: ["Diamonds have been for years the most precious mineral in the game, maybe it's time for you to find them."]
+			id: "61567B9CAB4A45DC"
+			rewards: [
+				{
+					id: "54CB0EE96DD5D4EA"
+					item: {
+						Count: 1
+						id: "aether:diamond_gloves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "467D269E35ABD43A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Who said fear? Go deep subway and go get them!"
+			tasks: [{
+				count: 16L
+				id: "06C668E728B2109D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "First Diamonds"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A5D7F39017D5F36"]
+			description: ["You are sure to come across a lot of new minerals, including silver. Grab your pick and start looking around!"]
+			id: "113F8512F8D3E6DF"
+			rewards: [
+				{
+					id: "686ADE4504FF3F6E"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34A8E9477AE1BF1E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "A new mineral, a multitude of new uses"
+			tasks: [
+				{
+					count: 32L
+					id: "7E39D7B21378F2FB"
+					item: "iceandfire:raw_silver"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "548F32A588713336"
+					item: "iceandfire:silver_ingot"
+					type: "item"
+				}
+			]
+			title: "Get Some Silver"
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["113F8512F8D3E6DF"]
+			description: [
+				"I know, you're not ready to ride a dragon yet, but you won't be if you don't have a good armor to give it! "
+				""
+				"You won't let it die easily, will you?"
+			]
+			id: "29BC523804FA92E6"
+			rewards: [
+				{
+					id: "11DF73FDA804DD42"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+				{
+					id: "02D417D7D1EA40B7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "rsquare"
+			subtitle: "With it your dragon will be more protected"
+			tasks: [
+				{
+					id: "22354612A58D9244"
+					item: "iceandfire:dragonarmor_silver_head"
+					type: "item"
+				}
+				{
+					id: "69E80F4B8090DF34"
+					item: "iceandfire:dragonarmor_silver_neck"
+					type: "item"
+				}
+				{
+					id: "428935103B3F4498"
+					item: "iceandfire:dragonarmor_silver_body"
+					type: "item"
+				}
+				{
+					id: "5A0AB0BF039E2C8A"
+					item: "iceandfire:dragonarmor_silver_tail"
+					type: "item"
+				}
+			]
+			title: "Dragons?"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["113F8512F8D3E6DF"]
+			description: [
+				"They are not very useful, but they are not harmful either. Let's say they are something different or unusual. "
+				""
+				"Well, yes, you should do them if you want to complete this challenge. Lol"
+			]
+			id: "53A728BD875BE6B1"
+			rewards: [
+				{
+					count: 3
+					id: "3F8A1F38E68F9EFD"
+					item: "iceandfire:silver_block"
+					type: "item"
+				}
+				{
+					id: "2B05273AA821D2F9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "You may never use them, but with this reward, you're sure to like them even more."
+			tasks: [
+				{
+					id: "08FBE620DC417888"
+					item: {
+						Count: 1
+						id: "iceandfire:silver_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "167E9E402CE14322"
+					item: {
+						Count: 1
+						id: "iceandfire:silver_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3569B971EBC2D55B"
+					item: {
+						Count: 1
+						id: "iceandfire:silver_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "622A651A23FD20CF"
+					item: {
+						Count: 1
+						id: "iceandfire:silver_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "661C1C1BE327FA61"
+					item: {
+						Count: 1
+						id: "iceandfire:silver_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3151A61EA3865F8F"
+					item: {
+						Count: 1
+						id: "delightful:silver_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Silver Tools"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4F3635A5048A23FD"]
+			description: ["I see, they are the glow lichen, take some and take them to unlock new challenges."]
+			id: "14A06B20C124BBD2"
+			rewards: [{
+				id: "059FFB04599F70BC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "What's that light shining at the end of the cave?"
+			tasks: [{
+				count: 16L
+				id: "36ABFB9B410666AE"
+				item: "minecraft:glow_lichen"
+				type: "item"
+			}]
+			title: "A Little Light"
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["14A06B20C124BBD2"]
+			description: [
+				"Let's say it's your turn to explore, but well, take it easy, I'm not in a hurry."
+				""
+				"Courage, I'm sure you'll find them much sooner than you think!"
+			]
+			id: "1009BD478F54722C"
+			rewards: [
+				{
+					id: "67AD0898517312A0"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+				{
+					id: "379F5B4DF95A6329"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Lush caves, as beautiful as bizarre"
+			tasks: [
+				{
+					biome: "minecraft:lush_caves"
+					icon: "minecraft:flowering_azalea_leaves"
+					id: "045438B3E0FF2467"
+					title: "Find the subterranean biome \"Lush Caves\""
+					type: "biome"
+				}
+				{
+					count: 16L
+					id: "72E291EB62CC1B42"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2C48986868E48C92"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["14A06B20C124BBD2"]
+			description: ["In the Underground Cabins there are some treasures, some of them as important as the \"Cave Tablet\", essential to elaborate the \"Cave Compendium\"."]
+			id: "687E9FF1D3B96932"
+			rewards: [
+				{
+					id: "59C06D3DBC163260"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D0EF8D42D240888"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "An uninhabited place, or well, I guess so"
+			tasks: [{
+				id: "11613AE808C22B58"
+				structure: "alexscaves:underground_cabin"
+				title: "Find the subway structures \"Underground Cabins\"."
+				type: "structure"
+			}]
+			title: "Find the subway structures \"Underground Cabins\""
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["687E9FF1D3B96932"]
+			description: [
+				"I am sure this book will be of great help to you to learn much more about them."
+				""
+				"Although if you think you know it all... no, it's impossible, believe me, get this book that will surely be of great help."
+			]
+			id: "799C19F6AA705699"
+			rewards: [{
+				id: "2EC2144DD717CA2A"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			subtitle: "Ready to delve into the huge and mysterious caves?"
+			tasks: [{
+				id: "49A9DE63EE61904E"
+				item: "alexscaves:cave_book"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["799C19F6AA705699"]
+			description: [
+				"The neodymium crystals will light your way, but be careful, it's still a very dark biome."
+				""
+				"Don't worry, there are no enemies! Oh no, I was wrong, it's full of them!"
+			]
+			id: "22AB352284931516"
+			rewards: [{
+				count: 12
+				id: "6EAE553245D52161"
+				item: "alexscaves:seeking_arrow"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "The truth is that it is not just any cave..."
+			tasks: [
+				{
+					biome: "alexscaves:magnetic_caves"
+					icon: "minecraft:map"
+					id: "73D78B5ECF09497B"
+					title: "Find the Magnetic Caves"
+					type: "biome"
+				}
+				{
+					count: 16L
+					id: "4268FEBB9BA05599"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1682AB9A0F28A7AA"
+					item: "alexscaves:ferrouslime_ball"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "08639DEA8491B6A3"
+					item: "alexscaves:raw_scarlet_neodymium"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["799C19F6AA705699"]
+			description: [
+				"Apparently not, so be careful when exploring this cave. Some seem friendly, and may even become so, although well, yes, you'd better be careful."
+				""
+				"Get some of these items and I'll reward you!"
+			]
+			id: "5BCBF036F90C172C"
+			rewards: [
+				{
+					id: "22E180C32B02CD7D"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46203E9275E287AD"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DC67287A0CD6D8E"
+					item: {
+						Count: 1
+						id: "alexscaves:primordial_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0AEF002B93E36BFC"
+					item: "alexscaves:primordial_soup"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "But weren't dinosaurs extinct?"
+			tasks: [
+				{
+					biome: "alexscaves:primordial_caves"
+					icon: "minecraft:map"
+					id: "6CD1848B7F33CE47"
+					title: "Find the Primordial Caves"
+					type: "biome"
+				}
+				{
+					count: 12L
+					id: "34880595921CEAD5"
+					item: "alexscaves:amber_curiosity"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "50364897EB67833D"
+					item: "alexscaves:dinosaur_nugget"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "27BCE23C7E5771DA"
+					item: "alexscaves:heavy_bone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2062961925B3A4C2"
+					item: "alexscaves:tectonic_shard"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["799C19F6AA705699"]
+			description: [
+				"I hope the toxics thing is not true, although I may laugh a lot when I see you suffer hahaha."
+				""
+				"Well I'll be good, if you bring all these rewards I promise I'll be good to you later. Come back with them, don't disappoint me."
+			]
+			id: "1FA9999B95CCDB92"
+			rewards: [
+				{
+					count: 15
+					id: "1D9D420D3DEE03C7"
+					item: "alexscaves:uranium"
+					type: "item"
+				}
+				{
+					id: "7841882D6BD8081F"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04177245563DBD2C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Did someone say toxic?"
+			tasks: [
+				{
+					biome: "alexscaves:toxic_caves"
+					icon: "minecraft:map"
+					id: "60E355BACACB02A3"
+					title: "Find the Toxic Caves"
+					type: "biome"
+				}
+				{
+					count: 12L
+					id: "2614A1F3BF134563"
+					item: "alexscaves:charred_remnant"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "23B76C02F12B69F0"
+					item: "alexscaves:fissile_core"
+					type: "item"
+				}
+				{
+					id: "4A08AA45DC735870"
+					item: "alexscaves:raygun"
+					type: "item"
+				}
+				{
+					id: "2A971BC07FC99819"
+					item: "alexscaves:acid_bucket"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["799C19F6AA705699"]
+			description: [
+				"Honestly when someone talks about darkness I imagine something like this, not even the torches will give you the light you need."
+				""
+				"What are those sounds you hear? To tell you the truth, I'm getting scared, you'd better bring all this stuff quickly or it might be too late when you want to come back."
+			]
+			id: "73E754318089AE64"
+			rewards: [
+				{
+					count: 5
+					id: "3FE223CF20E1492F"
+					item: "alexscaves:pearl"
+					type: "item"
+				}
+				{
+					id: "7773A9814BA6D6D2"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AC401194999B7E1"
+					item: {
+						Count: 1
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "I hope you like the dark places...."
+			tasks: [
+				{
+					biome: "alexscaves:abyssal_chasm"
+					icon: "minecraft:map"
+					id: "1B60372FC6C054A5"
+					title: "Find the Abyssal Chasm"
+					type: "biome"
+				}
+				{
+					count: 32L
+					id: "0BA271C53D06472A"
+					item: "alexscaves:bioluminesscence"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "795802CE62DEF1E5"
+					item: "alexscaves:cooked_mussel"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "534474F79CCAE724"
+					item: "alexscaves:depth_charge"
+					type: "item"
+				}
+				{
+					id: "4BE89567F915808A"
+					item: {
+						Count: 1
+						id: "alexscaves:ortholance"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13610E4CA58CA3EB"
+					item: "alexscaves:lanternfish_bucket"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["799C19F6AA705699"]
+			description: ["You will enter a large canyon, its walls will be only a part of your adventure. Don't just gawk at them, of course, this cave is not exactly uninhabited."]
+			id: "697FED3A4C98D4E9"
+			rewards: [
+				{
+					count: 32
+					id: "41262A2FCB8C6C57"
+					item: "alexscaves:burrowing_arrow"
+					type: "item"
+				}
+				{
+					id: "14ECB0DD04681F65"
+					item: {
+						Count: 1
+						id: "alexscaves:totem_of_possession"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "One more cave, one more place to die"
+			tasks: [
+				{
+					biome: "alexscaves:forlorn_hollows"
+					icon: "minecraft:map"
+					id: "16D94B4E3F0681A1"
+					title: "Find the Forlorn Hollows"
+					type: "biome"
+				}
+				{
+					count: 12L
+					id: "3B34E86AFA5C2B6A"
+					item: "alexscaves:dark_tatters"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5DA75BF74F4ECBBD"
+					item: "alexscaves:fertilizer"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "17D47EE792378149"
+					item: "alexscaves:moth_dust"
+					type: "item"
+				}
+				{
+					id: "748DF2FBFD66FFC9"
+					item: "alexscaves:vesper_wing"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+	]
+	title: "Mining days"
+}

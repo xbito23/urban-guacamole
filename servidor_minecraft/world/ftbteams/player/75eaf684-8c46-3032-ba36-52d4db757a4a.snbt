@@ -1,0 +1,17 @@
+{
+	id: "75eaf684-8c46-3032-ba36-52d4db757a4a"
+	type: "player"
+	player_name: "Kalatozo"
+	ranks: {
+		75eaf684-8c46-3032-ba36-52d4db757a4a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Kalatozo"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59AEFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

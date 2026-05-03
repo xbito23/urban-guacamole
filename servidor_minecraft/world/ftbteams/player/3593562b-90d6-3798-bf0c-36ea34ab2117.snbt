@@ -1,0 +1,17 @@
+{
+	id: "3593562b-90d6-3798-bf0c-36ea34ab2117"
+	type: "player"
+	player_name: "fabrizio832"
+	ranks: {
+		3593562b-90d6-3798-bf0c-36ea34ab2117: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "fabrizio832"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FF93"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
